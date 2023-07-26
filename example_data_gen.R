@@ -5,7 +5,7 @@ library(tidyverse)
 ##### trial parameters
 pi = 0.5 # probability of being randomized to the treatment arm
 n = 500 # trial sample size
-effect_size = 10 # increase in 10 units compared to control
+effect_size = 50 # increase in 10 units compared to control
 
 ##### distribution of the covariates as random variables
 # Each covariate is considered a random variable. We know this, since a trial dataset is always a "sample" of the full population.
